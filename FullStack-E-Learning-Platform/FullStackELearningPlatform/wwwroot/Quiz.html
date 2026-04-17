@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - E-Learning Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    E-Learning Platform
+</header>
+<nav>
+    <div class="nav-left">
+        <a href="Dashboard.html">Dashboard</a>
+        <a href="Courses.html">Courses</a>
+        <a href="Quiz.html">Quiz</a>
+        <a href="Profile.html">Profile</a>
+    </div>
+    <div class="nav-right">
+        <span id="navUser"></span>
+        <button class="logout-button" onclick="logout()">Logout</button>
+    </div>
+</nav>
+<main>
+    <div class="breadcrumb">
+        <a href="Dashboard.html">Home</a> > <span>Quiz</span>
+    </div>
+    <section class="welcome-section">
+        <h2>Test Your Knowledge 📝</h2>
+        <p>Complete the quiz and review your score, grade, and feedback below.</p>
+    </section>
+    <div class="card">
+        <h3 id="quizTitle">Quiz</h3>
+        <div id="quizArea"></div>
+        <button id="submitQuizButton" type="button" onclick="submitQuiz()">Submit Quiz</button>
+        <div id="result"></div>
+    </div>
+</main>
+<footer>
+    <p>© 2026 E-Learning Platform</p>
+</footer>
+<script src="js/api.js"></script>
+<script src="js/app.js"></script>
+<script src="js/quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - E-Learning Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    E-Learning Platform
+</header>
+<nav>
+    <div class="nav-left">
+        <a href="Dashboard.html">Dashboard</a>
+        <a href="Courses.html">Courses</a>
+        <a href="Quiz.html">Quiz</a>
+        <a href="Profile.html">Profile</a>
+    </div>
+    <div class="nav-right">
+        <span id="navUser"></span>
+        <button class="logout-button" onclick="logout()">Logout</button>
+    </div>
+</nav>
+<main>
+    <div class="breadcrumb">
+        <a href="Dashboard.html">Home</a> > <span>Courses</span>
+    </div>
+    <section class="welcome-section">
+        <h2>Available Courses 📚</h2>
+        <p>Explore courses, study lessons, and complete your first quiz.</p>
+    </section>
+    <section class="course-container" id="courseContainer"></section>
+    <section class="table-section">
+        <div class="card">
+            <h3>Course Overview</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Lessons</th>
+                        <th>Duration</th>
+                        <th>Quizzes</th>
+                    </tr>
+                </thead>
+                <tbody id="courseTable"></tbody>
+            </table>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>© 2026 E-Learning Platform</p>
+</footer>
+<script src="js/api.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

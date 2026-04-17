@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - E-Learning Platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    Multi Page E-Learning Platform
+</header>
+
+
+<nav>
+    <a href="Dashboard.html">Dashboard</a>
+    <a href="Courses.html">Courses</a>
+    <a href="Quiz.html">Quiz</a>
+    <a href="Profile.html">Profile</a>
+</nav>
+
+
+<main>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="Dashboard.html" style="color:white;">Home</a> > Dashboard
+    </div>
+
+   
+    <section style="color:white; margin-bottom:30px;">
+        <h2>Welcome Back to Multi Page E-Learning Platform 👋</h2>
+        <p>
+            Continue your learning journey with structured courses,
+            interactive quizzes, and real-time progress tracking.
+        </p>
+    </section>
+
+    
+    <section class="dashboard-grid">
+
+        <div class="card">
+            <h3>Total Courses</h3>
+            <p id="totalCourses" style="font-size:24px; font-weight:bold;"></p>
+            <p>Explore all available learning modules.</p>
+        </div>
+
+        <div class="card">
+            <h3>Completed Courses</h3>
+            <p id="completedCount" style="font-size:24px; font-weight:bold;"></p>
+            <p>Track how many courses you've finished.</p>
+        </div>
+
+        <div class="card">
+            <h3>Overall Progress</h3>
+            <progress id="progressBar" value="0" max="100"></progress>
+            <p id="progressText"></p>
+        </div>
+
+    </section>
+
+    
+    <section style="margin-top:40px;">
+
+        <div class="card">
+            <h3>Platform Highlights</h3>
+            <ul>
+                <li>Multi-page structured learning</li>
+                <li>Dynamic quiz generation</li>
+                <li>Web Storage based state management</li>
+                <li>Responsive design using Grid & Flexbox</li>
+                <li>Clean and intuitive interface</li>
+            </ul>
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p>© 2026 Multi Page E-Learning Platform</p>
+    <p>Developed by Harish Chintal</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

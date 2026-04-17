@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: linear-gradient(90deg, #2e59d9, #1cc88a);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700;
+    transform: scale(1.1);
+}
+
+main {
+    flex: 1;
+    padding: 30px;
+}
+
+.breadcrumb {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.course-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course-container .card {
+    width: 280px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #4e73df;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#quizArea div {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+button {
+    background: linear-gradient(45deg, #4e73df, #1cc88a);
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #1cc88a, #4e73df);
+    transform: scale(1.05);
+}
+input[type="radio"]:checked {
+    accent-color: #1cc88a;
+}
+progress {
+    width: 100%;
+    height: 18px;
+}
+
+footer {
+    background-color: #2e59d9;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+/* 📱 Mobile */
+@media (max-width: 576px) {
+
+    header {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .course-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-container .card {
+        width: 100%;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
+
+/* 📱 Tablet */
+@media (min-width: 577px) and (max-width: 992px) {
+
+    .dashboard-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .course-container .card {
+        width: 45%;
+    }
+}
+
+/* 💻 Laptop */
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    .dashboard-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .course-container .card {
+        width: 30%;
+    }
+}
+
+/* 🖥 Large Screens */
+@media (min-width: 1201px) {
+
+    main {
+        width: 1100px;
+        margin: auto;
+    }
+}
+
+/* ////// */
+/* Welcome section */
+.welcome-section {
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Big number text */
+.big-text {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Spacing utility */
+.space-top {
+    margin-top: 20px;
+}
+
+/* Table section spacing */
+.table-section {
+    margin-top: 40px;
+}
+
+/* Breadcrumb styling improvement */
+.breadcrumb a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.breadcrumb span {
+    font-weight: bold;
+}
+
+/* Active navigation */
+nav a.active {
+    border-bottom: 3px solid #ffd700;
+}
+
+.card p {
+    margin: 6px 0;
+}
