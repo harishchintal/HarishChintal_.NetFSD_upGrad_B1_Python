@@ -481,6 +481,7 @@ C:\Users\haris\Desktop\FullStack-E-Learning-Platform\FullStack-E-Learning-Platfo
 C:\Users\haris\Desktop\FullStack-E-Learning-Platform\FullStack-E-Learning-Platform\FullStackELearningPlatform\obj\Debug\net8.0\FullStackELearningPlatform.csproj.CoreCompileInputs.cache
 C:\Users\haris\Desktop\FullStack-E-Learning-Platform\FullStack-E-Learning-Platform\FullStackELearningPlatform\obj\Debug\net8.0\FullStackELearningPlatform.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\haris\Desktop\FullStack-E-Learning-Platform\FullStack-E-Learning-Platform\FullStackELearningPlatform\obj\Debug\net8.0\FullStackELearningPlatform.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\haris\Desktop\FullStack-E-Learning-Platform\FullStack-E-Learning-Platform\FullStackELearningPlatform\obj\Debug\net8.0\FullStackELearningPlatform.sourcelink.json
 C:\Users\haris\Desktop\FullStack-E-Learning-Platform\FullStack-E-Learning-Platform\FullStackELearningPlatform\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\haris\Desktop\FullStack-E-Learning-Platform\FullStack-E-Learning-Platform\FullStackELearningPlatform\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\haris\Desktop\FullStack-E-Learning-Platform\FullStack-E-Learning-Platform\FullStackELearningPlatform\obj\Debug\net8.0\staticwebassets\msbuild.FullStackELearningPlatform.Microsoft.AspNetCore.StaticWebAssets.props
