@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+</head>
+<body>
+
+<h1>Admin Panel 👨‍💻</h1>
+
+<!-- ADD COURSE -->
+<h2>Add Course</h2>
+<input id="courseTitle" placeholder="Title"><br>
+<input id="courseDesc" placeholder="Description"><br>
+<button onclick="addCourse()">Add Course</button>
+
+<hr>
+
+<!-- ADD LESSON -->
+<h2>Add Lesson</h2>
+<input id="lessonCourseId" placeholder="Course ID"><br>
+<input id="lessonTitle" placeholder="Lesson Title"><br>
+<input id="lessonContent" placeholder="Content"><br>
+<input id="lessonDuration" placeholder="Duration (hrs)" type="number"><br>
+<button onclick="addLesson()">Add Lesson</button>
+
+<hr>
+
+<!-- ADD QUIZ -->
+<h2>Add Quiz</h2>
+<input id="quizCourseId" placeholder="Course ID"><br>
+<input id="quizTitle" placeholder="Quiz Title"><br>
+<button onclick="addQuiz()">Add Quiz</button>
+
+<hr>
+
+<!-- ADD QUESTION -->
+<h2>Add Question</h2>
+<input id="qQuizId" placeholder="Quiz ID"><br>
+<input id="qText" placeholder="Question"><br>
+<input id="qA" placeholder="Option A"><br>
+<input id="qB" placeholder="Option B"><br>
+<input id="qC" placeholder="Option C"><br>
+<input id="qD" placeholder="Option D"><br>
+<input id="qAns" placeholder="Correct Answer (A/B/C/D)"><br>
+<button onclick="addQuestion()">Add Question</button>
+
+<script src="js/api.js"></script>
+<script src="js/admin.js"></script>
+
+</body>
+</html>

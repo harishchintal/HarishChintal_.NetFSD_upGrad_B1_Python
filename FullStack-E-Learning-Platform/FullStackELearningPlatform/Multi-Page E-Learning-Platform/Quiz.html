@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz - E-Learning Platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    Multi Page E-Learning Platform
+</header>
+
+<nav>
+    <a href="Dashboard.html">Dashboard</a>
+    <a href="Courses.html">Courses</a>
+    <a href="Quiz.html">Quiz</a>
+    <a href="Profile.html">Profile</a>
+</nav>
+
+<main>
+
+    <div class="breadcrumb">
+        <a href="Dashboard.html">Home</a> > <span>Quiz</span>
+    </div>
+
+    <section class="welcome-section">
+        <h2>Test Your Knowledge 📝</h2>
+        <p>Answer all questions before submitting.</p>
+    </section>
+
+    <div id="quizArea"></div>
+
+    <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+
+    <div id="result"></div>
+
+</main>
+
+<footer>
+    <p>© 2026 Multi Page E-Learning Platform</p>
+    <p>Developed by Harish Chintal</p>
+</footer>
+
+<script src="./js/data.js"></script>
+<script src="./js/storage.js"></script>
+<script src="./js/quiz.js"></script>
+
+</body>
+</html>

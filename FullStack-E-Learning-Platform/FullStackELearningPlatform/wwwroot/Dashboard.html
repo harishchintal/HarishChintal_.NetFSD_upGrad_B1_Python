@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - E-Learning Platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    E-Learning Platform
+</header>
+<nav>
+    <div class="nav-left">
+        <a href="Dashboard.html">Dashboard</a>
+        <a href="Courses.html">Courses</a>
+        <a href="Quiz.html">Quiz</a>
+        <a href="Profile.html">Profile</a>
+    </div>
+    <div class="nav-right">
+        <span id="navUser"></span>
+        <button class="logout-button" onclick="logout()">Logout</button>
+    </div>
+</nav>
+<main>
+    <div class="breadcrumb">
+        <a href="Dashboard.html">Home</a> > Dashboard
+    </div>
+    <section class="welcome-section">
+        <h2 id="welcomeTitle">Welcome Back!</h2>
+        <p>Continue your learning journey with structured courses, interactive quizzes, and progress tracking.</p>
+    </section>
+    <section class="dashboard-grid">
+        <div class="card">
+            <h3>Total Courses</h3>
+            <p id="totalCourses" class="big-text">0</p>
+            <p>Available courses in the platform.</p>
+        </div>
+        <div class="card">
+            <h3>Completed Courses</h3>
+            <p id="completedCount" class="big-text">0</p>
+            <p>Courses you have marked complete.</p>
+        </div>
+        <div class="card">
+            <h3>Overall Progress</h3>
+            <progress id="progressBar" value="0" max="100"></progress>
+            <p id="progressText">0% Completed</p>
+        </div>
+    </section>
+    <section class="table-section">
+        <div class="card">
+            <h3>Full progress will update when you complete courses and quizzes.</h3>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>© 2026 E-Learning Platform</p>
+</footer>
+<script src="js/api.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

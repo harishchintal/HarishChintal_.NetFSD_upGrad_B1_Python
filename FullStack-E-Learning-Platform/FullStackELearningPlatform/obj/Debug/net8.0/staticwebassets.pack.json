@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\haris\\Desktop\\FullStack-E-Learning-Platform\\FullStack-E-Learning-Platform\\FullStackELearningPlatform\\wwwroot\\Courses.html",
+      "PackagePath": "staticwebassets\\Courses.html"
+    },
+    {
+      "Id": "C:\\Users\\haris\\Desktop\\FullStack-E-Learning-Platform\\FullStack-E-Learning-Platform\\FullStackELearningPlatform\\wwwroot\\Dashboard.html",
+      "PackagePath": "staticwebassets\\Dashboard.html"
+    },
+    {
+      "Id": "C:\\Users\\haris\\Desktop\\FullStack-E-Learning-Platform\\FullStack-E-Learning-Platform\\FullStackELearningPlatform\\wwwroot\\Profile.html",
+      "PackagePath": "staticwebassets\\Profile.html"
+    },
+    {
+      "Id": "C:\\Users\\haris\\Desktop\\FullStack-E-Learning-Platform\\FullStack-E-Learning-Platform\\FullStackELearningPlatform\\wwwroot\\Quiz.html",
+      "PackagePath": "staticwebassets\\Quiz.html"
+    },
+    {
+      "Id": "C:\\Users\\haris\\Desktop\\FullStack-E-Learning-Platform\\FullStack-E-Learning-Platform\\FullStackELearningPlatform\\wwwroot\\admin.html",
+      "PackagePath": "staticwebassets\\admin.html"
+    },
+    {
+      "Id": "C:\\Users\\haris\\Desktop\\FullStack-E-Learning-Platform\\FullStack-E-Learning-Platform\\FullStackELearningPlatform\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\haris\\Desktop\\FullStack-E-Learning-Platform\\FullStack-E-Learning-Platform\\FullStackELearningPlatform\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\haris\\Desktop\\FullStack-E-Learning-Platform\\FullStack-E-Learning-Platform\\FullStackELearningPlatform\\wwwroot\\js\\admin.js",
+      "PackagePath": "staticwebassets\\js\\admin.js"
+    },
+    {
+      "Id": "C:\\Users\\haris\\Desktop\\FullStack-E-Learning-Platform\\FullStack-E-Learning-Platform\\FullStackELearningPlatform\\wwwroot\\js\\api.js",
+      "PackagePath": "staticwebassets\\js\\api.js"
+    },
+    {
+      "Id": "C:\\Users\\haris\\Desktop\\FullStack-E-Learning-Platform\\FullStack-E-Learning-Platform\\FullStackELearningPlatform\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\haris\\Desktop\\FullStack-E-Learning-Platform\\FullStack-E-Learning-Platform\\FullStackELearningPlatform\\wwwroot\\js\\quiz.js",
+      "PackagePath": "staticwebassets\\js\\quiz.js"
+    },
+    {
+      "Id": "C:\\Users\\haris\\Desktop\\FullStack-E-Learning-Platform\\FullStack-E-Learning-Platform\\FullStackELearningPlatform\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\haris\\Desktop\\FullStack-E-Learning-Platform\\FullStack-E-Learning-Platform\\FullStackELearningPlatform\\wwwroot\\register.html",
+      "PackagePath": "staticwebassets\\register.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FullStackELearningPlatform.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FullStackELearningPlatform.props",
+      "PackagePath": "build\\FullStackELearningPlatform.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FullStackELearningPlatform.props",
+      "PackagePath": "buildMultiTargeting\\FullStackELearningPlatform.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FullStackELearningPlatform.props",
+      "PackagePath": "buildTransitive\\FullStackELearningPlatform.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
